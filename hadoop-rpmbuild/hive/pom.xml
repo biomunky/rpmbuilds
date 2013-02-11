@@ -70,18 +70,6 @@
                 <source>
                   <location>src/main/resources/hive-0.9.0.jar</location>
                 </source>
-                <source>
-                  <location>src/main/resources/hive-test-0.9.0.jar</location>
-                </source>
-              </sources>
-            </mapping>
-            <mapping>
-              <directory>/opt/hive/ivy</directory>
-              <filemode>775</filemode>
-              <sources>
-                <source>
-                  <location>src/main/resources/ivy</location>
-                </source>
               </sources>
             </mapping>
             <mapping>
@@ -93,24 +81,6 @@
                 </source>
               </sources>
             </mapping>
-            <mapping>
-              <directory>/opt/hive/docs</directory>
-              <filemode>775</filemode>
-              <sources>
-                <source>
-                  <location>src/main/resources/docs</location>
-                </source>
-              </sources>
-            </mapping>
-            <mapping>
-            <directory>/opt/hive/src</directory>
-            <filemode>775</filemode>
-            <sources>
-              <source>
-                <location>src/main/resources/src</location>
-              </source>
-            </sources>
-          </mapping>
           </mappings>
         </configuration>
       </plugin>
