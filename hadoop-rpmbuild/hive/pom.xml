@@ -62,7 +62,6 @@
                 </source>
               </sources>
             </mapping>
-
             <mapping>
               <directory>/opt/hive</directory>
               <filemode>775</filemode>
@@ -86,5 +85,4 @@
       </plugin>
     </plugins>
   </build>
-
 </project>
